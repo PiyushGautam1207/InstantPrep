@@ -1,0 +1,13 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Explicitly block all .env files anywhere in the project
+.env
+.env.*
+backend/.env
+frontend/.env
+
+# Production builds
+dist/
+**/dist/
